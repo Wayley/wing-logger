@@ -6,7 +6,7 @@ export interface IAppender {
 
 export type ExecuteHandler = (value: string) => Promise<boolean>;
 
-export class FileAppender implements IAppender {
+export class Appender implements IAppender {
   private sequence: Sequence<PromiseHandler<boolean>>;
   private executeHandler: ExecuteHandler;
   constructor(executeHandler: ExecuteHandler) {

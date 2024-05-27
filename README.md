@@ -1,7 +1,7 @@
 # wing-logger
 
 ```ts
-import Logger, { FileAppender, type ExecuteHandler } from 'wing-logger';
+import Logger, { Appender, type ExecuteHandler } from 'wing-logger';
 
 const logAsync: ExecuteHandler = (value: string) =>
   new Promise((resolve) => {
@@ -12,7 +12,7 @@ const logAsync: ExecuteHandler = (value: string) =>
   });
 
 const logger = new Logger('subject');
-logger.addAppenders([new FileAppender(logAsync)]);
+logger.addAppenders([new Appender(logAsync)]);
 
 setTimeout(() => {
   logger.log(1);
