@@ -22,7 +22,17 @@
   "files": [
     "dist"
   ],
+  "license": "Apache-2.0",
   "dependencies": {
-    "@wing-logger/appender": "^0.0.1"
-  }
+    "@wing-logger/appender": "^0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wayley/wing-logger.git",
+    "directory": "packages/logger"
+  },
+  "bugs": {
+    "url": "https://github.com/Wayley/wing-logger/issues"
+  },
+  "homepage": "https://github.com/Wayley/wing-logger/blob/main/packages/logger#readme"
 }
