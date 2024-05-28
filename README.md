@@ -1,5 +1,7 @@
 # wing-logger
 
+## appender
+
 ```ts
 import Logger, { Appender, type ExecuteHandler } from 'wing-logger';
 
@@ -19,9 +21,4 @@ setTimeout(() => {
 }, 200);
 logger.log(2);
 logger.log(3);
-
-// The console output:
-// 2
-// 3
-// 1
 ```

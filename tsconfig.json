@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "",
-    "declaration": true,
     "target": "esnext",
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
+		"moduleResolution":"Bundler",
   }
 }
