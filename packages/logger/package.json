@@ -1,6 +1,6 @@
 {
   "name": "@wing-logger/logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wing logger",
   "keywords": [
     "wing",
@@ -24,7 +24,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "@wing-logger/appender": "^0.0.2"
+    "@wing-logger/appender": "^0.0.3"
   },
   "repository": {
     "type": "git",
