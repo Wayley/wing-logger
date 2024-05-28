@@ -1,7 +1,7 @@
 # @wing-logger/appender
 
 ```ts
-import Appender, { ExecuteHandler } from '@wing-logger/appender';
+import Appender, { type ExecuteHandler } from '@wing-logger/appender';
 
 const handler: ExecuteHandler = (value: string) =>
   new Promise((resolve) => {

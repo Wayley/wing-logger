@@ -20,3 +20,4 @@ export class Appender implements IAppender {
     });
   }
 }
+export default Appender;

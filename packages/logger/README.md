@@ -1,7 +1,7 @@
 # @wing-logger/logger
 
 ```ts
-import Appender, { ExecuteHandler } from '@wing-logger/appender';
+import Appender, { type ExecuteHandler } from '@wing-logger/appender';
 import Logger from '@wing-logger/logger';
 
 const logAsync: ExecuteHandler = (value: string) =>

@@ -3,7 +3,8 @@
 ## appender
 
 ```ts
-import Logger, { Appender, type ExecuteHandler } from 'wing-logger';
+import Appender, { type ExecuteHandler } from '@wing-logger/appender';
+import Logger from '@wing-logger/logger';
 
 const logAsync: ExecuteHandler = (value: string) =>
   new Promise((resolve) => {
@@ -21,4 +22,9 @@ setTimeout(() => {
 }, 200);
 logger.log(2);
 logger.log(3);
+
+// The console output:
+// 2
+// 3
+// 1
 ```
